@@ -7,7 +7,7 @@
 ```java
 Properties prop = new Properties();
 prop.put("bootstrap.servers", "kafka01:9092,kafka01:9092,kafka01:9092");
-prop.put("key.erializer", "org.apache.kafka.common.serialization.StringSerializer");
+prop.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 prop.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
 KafkaProducer<Integer, String> producer = new KafkaProducer<>(prop);
