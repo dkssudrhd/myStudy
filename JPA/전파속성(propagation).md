@@ -9,7 +9,7 @@
 
 ## 적용법 
 ```java
- 	@Transactional(propagation = Propagation.REQUIRED)
+@Transactional(propagation = Propagation.REQUIRED)
     public void save(){
     
     }
