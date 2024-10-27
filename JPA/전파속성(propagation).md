@@ -10,9 +10,9 @@
 ## 적용법 
 ```java
 @Transactional(propagation = Propagation.REQUIRED)
-    public void save(){
+public void save(){
     
-    }
+}
 ```
 
 
